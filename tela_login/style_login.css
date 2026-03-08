@@ -1,0 +1,67 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.block{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+
+    width: 50vh;
+    height: 80%;
+    background-color: rgb(128, 64, 187);
+
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+
+    
+}.text_login{
+        font-size: 50px;
+        margin-top: 5vh;
+    
+        color: antiquewhite;
+
+    }.paragrafo_text_login{
+            font-size: 18px;
+            margin-top: -3vh;
+            
+            text-align: center;
+
+            color: #ffdbf3;
+
+        }.gmail_text{
+                font-size: 20px;
+                margin-top: 5vh;
+            
+                color: #ffdbf3;
+            }.gmail{
+                    border: none;
+                    width: 70%;
+                    height: 30px;
+
+                    font-size: medium;
+                }
+
+.password_text{
+    font-size: 20px;
+    margin-top: 3vh;
+
+    color: #ffdbf3;
+}.senha{
+        border: none;
+        width: 70%;
+        height: 30px;
+
+        font-size: medium;
+    }

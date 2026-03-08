@@ -23,7 +23,7 @@ body{
         }.line{
                 width: 2px;
                 height: 70px;
-                margin-left: 50px;
+                margin-left: 40px;
 
                 background-color: rgb(243, 221, 255);
             }.shows-nav{
@@ -41,7 +41,7 @@ body{
                         }.barra-pesquisa{
                             width: 400px;
                             height: 25px;
-                            margin-left: 45vh;
+                            margin-left: 50vh;
 
                             border-radius: 10px;
                             border: none;
@@ -50,14 +50,21 @@ body{
                             height: 50px;
                             margin-left: 10px;
 
-                            filter: brightness(0) invert(1);a
+                            filter: brightness(0) invert(1);
                             transition: 0.3s;
-                        }.lupa:hover{
-                            filter: brightness(0) invert(0.7);
-                        }.login-nav{
-                                font-size: 30px;
-                                margin-left: 20px;
-                            }
+                            }.lupa:hover{
+                                    filter: brightness(0) invert(0.7);
+                                }.login-nav{
+                                        font-size: 25px;
+                                        margin-left: 30px;
+                                        color: rgb(248, 213, 255);
+                                    }.simbolo-login{
+                                        width: 40px;
+                                        height: 40px;
+
+                                        margin-left: 15px;
+                                        filter: brightness(0) invert(1);
+                                    }
 
 
 
