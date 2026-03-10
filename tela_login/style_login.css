@@ -65,3 +65,53 @@ body{
 
         font-size: medium;
     }
+
+
+.registrar{
+    margin-top: 5vh;
+    width: 90px;
+    height: 35px;
+
+    color:#ffeffa ;
+    background-color: rgb(180, 119, 236);
+    border-color: #ffdbf3;
+}
+
+#login_sucesso{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    top: 75vh;
+
+    display: none;
+
+    font-size: 20px;
+    color: #ffdbf3
+    ;
+        
+}#login_erro{
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        top: 75vh;
+
+        display: none;
+
+        font-size: 20px;
+        color: #ffdbf3;
+            
+    }
+
+
+.voltar{
+    margin-top: 13vh;
+    
+    font-size: 25px;
+    color: #ffdbf3;
+}

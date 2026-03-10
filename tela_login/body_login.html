@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_login.css">
+    <script src="/tela_login/head_login..js"></script>
     <title>Login</title>
 </head>
 <body>
@@ -16,11 +17,21 @@
         caso não tenha login já registrado<br>clique na opção novo login</p>
 
         <p class="gmail_text">Digite seu gmail:</p>
-        <input class="gmail" type="text">
+        <input class="gmail" type="text" placeholder="gmail">
 
         <p class="password_text">Digite sua senha:</p>
-        <input class="senha" type="text">
+        <input class="senha" type="password" placeholder="senha">
+
+
+        <input class="registrar" onclick="login()" type="submit">
+
+
+        <a class="voltar" href="/pagina_inicial/body.html" target="_self">Voltar</a>
     </div>
         
+        <p id="login_sucesso">Logado com Sucesso</p>
+        <p id="login_erro">Usuario ou Senha Incorreto</p>
+   
+
 </body>
 </html>
