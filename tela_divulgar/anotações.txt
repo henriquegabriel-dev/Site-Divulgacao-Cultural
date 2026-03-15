@@ -1,0 +1,12 @@
+Os shows em suas respectivas abas ficam disponiveis pelo tempo determinado do dia de inicio do show, ao seu termino<br>
+é bom atenção do artista quanto a esse detalhe.<br>
+
+Os shows teram opção de presença, essa opção ira fazer diferença para duas abas, para aba shows os eventos não avera influencia<br>
+
+[ABA PLUS]
+além de demonstrar os shows com mais possiveis presenças e destaques. Para a aba PLUS, os shows com mais presença ficaram<br>
+nos primeiros lugares da aba, como os shows com mais presenças.
+
+[ABA STARS]
+Para a aba STARS os 5 melhores shows aparareceram na aba principal da site, como as melhores recomendações do site para irem,<br>
+além de aparecerem nos top 5 melhores das suas respectivas abas.

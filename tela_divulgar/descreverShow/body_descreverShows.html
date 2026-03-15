@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divulgar</title>
+    <link rel="stylesheet" href="style_descreverShows.css">
+</head>
+<body>
+    
+    <div class="navbar">
+        
+            <div class="nav-left">
+                <img src="/pagina_inicial/Tilesets/Logo-navbar2.png" class="logo-navbar">
+                <div class="line"></div>
+                <a class="shows-nav" href="/tela_shows/body_shows.html">Shows</a>
+                <div class="line"></div>
+                <a class="esposições-nav">Esposições</a>
+                <div class="line"></div>
+                <a class="divulgar-nav">Dilvulgar</a>
+                <div class="line"></div>
+                <a class="turismo-nav">Turismo</a>
+                <div class="line"></div>
+                <a id="voltar" href="/pagina_inicial/body.html" target="_self">voltar</a>
+                <div class="line"></div>
+            </div>
+                <div class="nav-right">
+                    <input type="search" class="barra-pesquisa">
+                    <img class="lupa-simbolo" src="/pagina_inicial/Tilesets/lupa-simbolo.png">
+                    <div class="line"></div>
+                    <a class="login-nav" href="/tela_login/body_login.html" target="_self">Login/Register</a>
+                    <img class="simbolo-login" src="/pagina_inicial/Tilesets/simbolo-login.png">
+                </div>
+        
+    </div>
+
+
+    <div class="box-registrar">
+
+        <div class="barra"></div>
+        <div class="alinhar">
+
+            <div class="registrar_principal">
+                
+                <div class="inputs">
+                    <p>Aqui você deve digitar o que ira aparecer na tela de shows, é onde a pessoas iram ver sobre<br>
+                    o que se trata seu show, antes de procurar saber mais sobre ele.</p>
+                
+                    <p>Digite o titulo do Seu Evento:</p>
+                    <input type="text" id="titulo">
+                    <p>Digite a Descrição do Seu Evento:</p>
+                    <input type="text" id="descricao">
+                </div>
+
+                <div class="text_idade">
+                    <p>Qual a Classificação de Idade do Seu Evento:</p>
+
+                    <label>
+                        de 5-11 anos
+                        <input type="checkbox" id="crianca"><br>
+                    
+                        de 12-17
+                        <input type="checkbox" id="adolescente"><br>
+                    
+                        de 18 para cima
+                        <input type="checkbox" id="adulto"><br>
+                                      
+                        livre para todas as idades
+                        <input type="checkbox" id="livre_idade">
+                    </label>
+                </div>
+
+                <div class="campo_para_imagem">
+                    <p>Selecione uma Imagem ou Logo Para seu Evento:</p>
+                    <div id="box_imagem">
+                        <input type="image" id="imagem_associada">
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="Campo_2">
+
+                <div class="elementos_campo2">
+                    <p>Coloque uma descrição para seu show:</p>
+                    <input id="descricao_show" type="text">
+                    <div class="tipos_de_divulgacao">
+                        <div class="box_tipo">normal</div>
+                        <div class="box_tipo">plus</div>
+                        <div class="box_tipo">stars</div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+</body>
+</html>

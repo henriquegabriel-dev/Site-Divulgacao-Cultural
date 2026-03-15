@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(21, 4, 43);
+    background-color: rgb(202, 182, 228);
     margin: 0;
     padding: 0;
 }
@@ -44,7 +44,11 @@ body{
                                 font-size: 1.2rem;
                                 
                                 color: rgb(248, 213, 255);
-                                }
+                                }#voltar{
+                                    font-size: 1.2rem;
+        
+                                    color: rgb(248, 213, 255);
+                        }
 
     .nav-right{
 
@@ -89,60 +93,135 @@ body{
 
 
 
+.box-registrar{
+    position: absolute;
+    top: 15%;
+    left: 10%;
 
-.background{
+    width: 80% ;
+    height: 80%;
+
+    background-color:rgb(142, 124, 153);
+
+
+}.barra{
+    position: relative;
+    width: 100% ;
+    height: 8%;
+
+    background-color: rgb(44, 10, 71);
+}
+
+.alinhar{
     display: flex;
+    justify-content: center;
     flex-direction: row;
-    margin-top: 1%;
+    gap: 3%;
+    margin-top: 0.5%;
 
-    height: 40rem;
-    
+    height: 100%;
+    }
 
-}
 
-#block-img-text-1{
 
-        width: 50%;
-        
-        
-        object-fit: fill;
-        display: block;
-}
-.block-text{
 
-    width: 50%;
 
-    background-color: rgb(161, 114, 214);
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-
-}#text-block-shows{
+    .registrar_principal{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
         
-        font-size: 50px;
-        margin-top: 5vh;
+        width: 45%;
+        height: 90%;
         
-    }#subtext-shows{
-            word-wrap: break-word;
-            overflow-wrap: break-word;
 
-            max-width: 85%;
-            width: 100%;
-            font-size: 1.6rem;
-            margin-top: 9vh;
-            text-align: center;
+        background-color: rgb(236, 209, 241);
+        color: rgb(46, 10, 49);
+        font-size: 1.2rem;
+        
+        }.inputs{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 5%;
+
             
-                
-        }
+        }#titulo{
+            
+            width: 50%;
+            height: 10%;
+            
+
+            }#descricao{
+
+                    width: 50%;
+                    height: 10%;
+
+                }.text_idade{
+                    margin-left: 5%;
+                }
+.campo_para_imagem{
+        margin-left: 5%;
+    }#box_imagem{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 45%;
+        height: 200%;
+        margin-left: 5%;
+        background-color: rgb(247, 234, 255);
+
+            }
 
 
 
 
 
-.sessao_precos{
+
+
+
+
+
+    .Campo_2{
+        width: 45%;
+        height: 90%;
+
+        background-color: rgb(236, 209, 241);
+        color: rgb(46, 10, 49);
+        font-size: 1.2rem;
+        
+    }.elementos_campo2{
     
-}
+        display: flex;
+        flex-direction: column;
+    
+        height: 100%;
+       
+        gap: 5%;
+
+        }#descricao_show{
+       
+                width: 80%;
+                height: 30%;
+                margin-left: 5%;
+            }.tipos_de_divulgacao{
+
+                display: flex;
+                flex-direction: row;
+                height: 100%;
+                width: 100%;
+                gap: 2%;
+                margin-top: 8%;
+                margin-left: 1.5%;
+
+                }.box_tipo{
+    
+                        height: 80%;
+                        width: 31%;
+                    
+            
+                        background-color: aqua;
+
+                    }
